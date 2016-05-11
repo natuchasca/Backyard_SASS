@@ -92,6 +92,10 @@ header {
 		}
 		span {
 			margin: 0px 20px;
+			.fa {
+				margin-right: 10px;
+				font-size: 18px;
+			}
 		}
 	}
 }
@@ -128,15 +132,21 @@ footer {
 	text-align: center;
 	padding: $content-padding;
 	.social-icons {
-		width: 30px;
-		height: 30px;
-		border-radius: 30px; 
+		width: 40px;
+		height: 40px;
+		border-radius: 40px; 
 		color: $azul-color;
 		border: 1px solid $azul-color;
 		display: inline-block;
 		margin-right: 10px;
-		padding: 3px;
+		padding: 5px;
 		text-align: center;
 		margin-bottom: 10px;
+		font-size: 18px;
+		&:hover {
+			background-color: $azul-color;
+			color: white;
+			cursor: pointer;
+		}
 	}
 }

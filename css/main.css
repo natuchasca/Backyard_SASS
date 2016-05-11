@@ -65,6 +65,9 @@ header {
       margin-bottom: 20px; }
     .portada .text-box span {
       margin: 0px 20px; }
+      .portada .text-box span .fa {
+        margin-right: 10px;
+        font-size: 18px; }
 
 /* Section phone */
 .phone {
@@ -89,15 +92,20 @@ footer {
   text-align: center;
   padding: 50px 0px; }
   footer .social-icons {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
     color: #3cb1f6;
     border: 1px solid #3cb1f6;
     display: inline-block;
     margin-right: 10px;
-    padding: 3px;
+    padding: 5px;
     text-align: center;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-size: 18px; }
+    footer .social-icons:hover {
+      background-color: #3cb1f6;
+      color: white;
+      cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
