@@ -1,0 +1,142 @@
+$azul-color: #3cb1f6;
+$grey-color: #E4E1E6;
+
+$content-padding: 50px 0px;
+
+* {
+	font-family: 'Lato';
+}
+
+/* Imagenes */
+img {
+		width: 100%;
+		height: auto;
+}
+
+/* Enlaces */
+a {
+	color: $azul-color;
+}
+
+
+/* Estilo de botones */
+.container {
+	.btn {
+		border-radius: 25px;
+		padding: 6px 20px;
+		font-weight: bold;
+		&.btn-primary {
+			/* Sobre esribe la clase de boostrap */
+			background-color: $azul-color;
+			border-color: $azul-color;
+			margin: 20px 20px 20px 0px;
+			&:hover {
+				background-color: darken($azul-color, 10%);
+
+			}
+		}
+		&.btn-transparent {
+			background-color: transparent;
+			border-color: $azul-color;
+			color: $azul-color;
+			&:hover {
+				background-color: white;
+				color: $azul-color;
+
+			}
+		}
+	}
+}
+
+
+/* Header y nav */
+header {
+	padding: 20px 0px;
+	.nav-pills > li > a {
+		color: black;
+	}
+	.nav-pills > li > a:hover {
+		background-color: $azul-color;
+		color: white;
+	}
+	.nav-pills > li.active > a {
+		color: black;
+		background-color: $grey-color;
+	}
+	.nav-pills > li.active > a:hover {
+		background-color: $azul-color;
+		color: white;
+	}
+
+}
+
+/* Imagen Portada Section */
+.portada {
+	background-image: url(../images/1920x665-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	height: 450px;
+	color: white;
+	.back-opacity {
+		background: rgba(5,5,5,0.44);
+		height: 100%;
+		width: 100%;
+	}
+	.text-box {
+		margin-top: 70px;
+		h1 {
+			font-size: 50px;
+			margin-bottom: 20px;
+		}
+		span {
+			margin: 0px 20px;
+		}
+	}
+}
+
+
+/* Section phone */
+.phone {
+	padding: $content-padding;
+	.container .btn.btn-transparent:hover {
+		background-color: $azul-color;
+		color: white;
+	}
+}
+
+
+/* Section gris */
+.gris {
+	background-color: $grey-color;
+	padding: $content-padding;
+	p {
+		margin-bottom: 50px;
+	}
+	img {
+		margin-top: -140px;
+	}
+	h4 {
+		font-weight: bold;
+	}
+}
+
+
+/* Footer */
+footer {
+	text-align: center;
+	padding: $content-padding;
+	.social-icons {
+		width: 30px;
+		height: 30px;
+		border-radius: 30px; 
+		color: $azul-color;
+		border: 1px solid $azul-color;
+		display: inline-block;
+		margin-right: 10px;
+		padding: 3px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+}

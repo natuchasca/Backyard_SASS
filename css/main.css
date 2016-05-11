@@ -1,0 +1,103 @@
+* {
+  font-family: 'Lato'; }
+
+/* Imagenes */
+img {
+  width: 100%;
+  height: auto; }
+
+/* Enlaces */
+a {
+  color: #3cb1f6; }
+
+/* Estilo de botones */
+.container .btn {
+  border-radius: 25px;
+  padding: 6px 20px;
+  font-weight: bold; }
+  .container .btn.btn-primary {
+    /* Sobre esribe la clase de boostrap */
+    background-color: #3cb1f6;
+    border-color: #3cb1f6;
+    margin: 20px 20px 20px 0px; }
+    .container .btn.btn-primary:hover {
+      background-color: #0b9ef4; }
+  .container .btn.btn-transparent {
+    background-color: transparent;
+    border-color: #3cb1f6;
+    color: #3cb1f6; }
+    .container .btn.btn-transparent:hover {
+      background-color: white;
+      color: #3cb1f6; }
+
+/* Header y nav */
+header {
+  padding: 20px 0px; }
+  header .nav-pills > li > a {
+    color: black; }
+  header .nav-pills > li > a:hover {
+    background-color: #3cb1f6;
+    color: white; }
+  header .nav-pills > li.active > a {
+    color: black;
+    background-color: #E4E1E6; }
+  header .nav-pills > li.active > a:hover {
+    background-color: #3cb1f6;
+    color: white; }
+
+/* Imagen Portada Section */
+.portada {
+  background-image: url(../images/1920x665-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  height: 450px;
+  color: white; }
+  .portada .back-opacity {
+    background: rgba(5, 5, 5, 0.44);
+    height: 100%;
+    width: 100%; }
+  .portada .text-box {
+    margin-top: 70px; }
+    .portada .text-box h1 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .portada .text-box span {
+      margin: 0px 20px; }
+
+/* Section phone */
+.phone {
+  padding: 50px 0px; }
+  .phone .container .btn.btn-transparent:hover {
+    background-color: #3cb1f6;
+    color: white; }
+
+/* Section gris */
+.gris {
+  background-color: #E4E1E6;
+  padding: 50px 0px; }
+  .gris p {
+    margin-bottom: 50px; }
+  .gris img {
+    margin-top: -140px; }
+  .gris h4 {
+    font-weight: bold; }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 50px 0px; }
+  footer .social-icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    color: #3cb1f6;
+    border: 1px solid #3cb1f6;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=main.css.map */
